@@ -1,0 +1,23 @@
+{
+	"compilerOptions": {
+		"target": "es2022",
+
+		/* Modules */
+		"module": "commonjs",
+		"declaration": true,
+		"sourceMap": true,
+		"resolveJsonModule": true,
+		"esModuleInterop": true,
+		"forceConsistentCasingInFileNames": true,
+
+		/* Type Checking */
+		"types": ["bun-types"],
+		"strict": true,
+		"outDir": "dist",
+		"noImplicitAny": false,
+		"skipLibCheck": true,
+		"baseUrl": "."
+	},
+	"include": ["src/**/*", "tests/**/*"],
+	"exclude": ["dist"]
+}

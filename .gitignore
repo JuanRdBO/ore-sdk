@@ -1,0 +1,8 @@
+node_modules/
+dist
+*.log
+.nx
+.npmrc
+.DS_Store
+.env
+.npmrc
