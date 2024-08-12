@@ -2,6 +2,11 @@
 
 A Typescript SDK to interface with the [ORE](https://github.com/regolith-labs/ore-cli) program.
 
+## To install the package
+```
+bun install ore-sdk
+```
+
 ## To install dependencies
 ```bash
 bun install
