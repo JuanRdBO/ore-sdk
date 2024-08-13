@@ -1,33 +1,32 @@
 {
-  "name": "ore-sdk",
-  "version": "0.0.1",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
-  "scripts": {
-    "test": "bun test --timeout 60000",
-    "build": "NODE_ENV=production tsup ./src/index.ts --format cjs,esm --dts"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/JuanRdBO/ore-sdk.git"
-  },
-  "keywords": ["solana", "ore", "sdk", "client"],
-  "author": "Joan Ruiz de Bustillo Ohngemach",
-  "license": "Apache-2.0",
-  "bugs": {
-    "url": "https://github.com/JuanRdBO/ore-sdk"
-  },
-  "homepage": "https://github.com/JuanRdBO/ore-sdk#readme",
-  "dependencies": {
-    "@solana/spl-token": "^0.4.8",
-    "@solana/web3.js": "^1.95.2",
-    "ore-sdk": "^0.0.1"
-  },
-  "devDependencies": {
-    "bun-types": "latest",
-    "tsup": "^8.2.4"
-  },
-  "peerDependencies": {
-    "typescript": "^5.0.0"
-  }
+	"name": "ore-sdk",
+	"version": "0.0.2",
+	"main": "dist/index.js",
+	"types": "dist/index.d.ts",
+	"scripts": {
+		"test": "bun test --timeout 60000",
+		"build": "NODE_ENV=production tsup ./src/index.ts --format cjs,esm --dts"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/JuanRdBO/ore-sdk.git"
+	},
+	"keywords": ["solana", "ore", "sdk", "client"],
+	"author": "Joan Ruiz de Bustillo Ohngemach",
+	"license": "Apache-2.0",
+	"bugs": {
+		"url": "https://github.com/JuanRdBO/ore-sdk"
+	},
+	"homepage": "https://github.com/JuanRdBO/ore-sdk#readme",
+	"dependencies": {
+		"@solana/spl-token": "^0.4.8",
+		"@solana/web3.js": "^1.95.2"
+	},
+	"devDependencies": {
+		"bun-types": "latest",
+		"tsup": "^8.2.4"
+	},
+	"peerDependencies": {
+		"typescript": "^5.0.0"
+	}
 }

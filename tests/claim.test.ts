@@ -1,5 +1,5 @@
 import { beforeAll, describe, expect, test } from "bun:test";
-import { OreSdk } from "../src";
+import { OreSdk } from "../src/OreSdk";
 import { Keypair, type PublicKey } from "@solana/web3.js";
 import { sendTransaction } from "../src/utils/sendAndConfirmTransaction";
 import { addPrioritizationFees } from "../src/utils/priorityFees/addPrioritizationFees";
